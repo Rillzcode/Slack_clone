@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content-container{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 900px;
+    border: 1px solid blue;
+}
+.content-header{
+    border: none;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-bar_1{
+    border:none;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    margin-top: 5px;
+}
+.nav-bar_2{
+    border: none;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+}
+.side-bar{
+    border: none;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    
+}
+.side-bar_1{
+    border: none;
+    width: 50%;
+    height: 50px;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+.side-bar_2{
+    border: none;
+    width: 50%;
+    height: 50px;
+    padding-top: 15px;
+    border-radius: 3px;
+    background-color: purple;
+    margin-right: 50px;
+   
+}
+.logo{
+    width: 100px;
+    height: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
+   
+}
+
+ul li{
+display: inline;
+justify-content: space-between;
+padding-left: 25px;
+    padding-right: 5px;
+    
+    /* margin-top: 25px; */
+    font-family: sans-serif;
+    font-weight: 90px;
+    font-size: medium;
+    
+    
+}
+ul{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.head{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.sign-in{
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.start{
+    margin-left: 13px;
+    font-family: sans-serif;
+    font-size: medium;
+    color: white;
+     text-decoration: none;
+     font-weight: 600;
+   
+}
+.star{
+    margin-left: 13px;
+    font-family: sans-serif;
+    font-size: medium;
+    color: white;
+     text-decoration: none;
+     font-weight: 600;
+     margin-left: 30px;
+   
+}
+.content-section{
+    border:none;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.section_1{
+    border: none;
+    width: 60%;
+    height: auto;
+    /* width: 300px;
+    height: 300px; */
+    position: relative;
+    /* border-radius: 100%; */
+    margin-left: 80px; 
+   
+}
+.section_2{
+    border: none;
+    width: 50%;
+    height: auto;
+    margin-top: 150px;
+    margin-right: 70px;
+   
+   
+}
+.img_1{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 30px;
+    left: 10px;
+    border:none;
+    margin-top: 60px;
+    opacity: 60%;
+    object-fit: cover;
+    margin-left: 60px;
+}
+.img_4{
+    height: 170px;
+    width: 190px;
+    object-fit: cover;
+   
+}
+.img_2{
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    top: 130px;
+    border: none;
+    left: 10px;
+    margin-bottom: 50px;
+    margin-left: 130px;
+   
+    
+}
+.img_3{
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+}
+h1{
+    margin-left: 260px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+
+.sub_unit{
+    border:none;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 30px;
+   
+}
+.sub-unit_1{
+    border: 1px solid rgb(115, 117, 115);
+    width: 40%;
+    height: 50px;
+    border-radius: 3px ;
+}
+.sub-unit_2{
+    border: none;
+    width: 180px;
+    height: 50px;
+    padding-top: 15px;
+    border-radius: 3px;
+    background-color: purple;
+    margin-left: 23px;
+
+}
+input{
+    margin-top: 13px;
+    margin-left: 10px;
+    outline-style: none;
+    border: none;
+    font-family: sans-serif;
+    font-size: medium;
+}
+.text{
+    border:none;
+    font-family: sans-serif;
+    font-size: medium;
+
+}
+.text_1{
+    border: none ;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: medium;
+}
+.right_img{
+    border: none;
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+    opacity: 90%;
+    margin-top: 30px;
+}
+.right_im{
+   
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+    opacity: 90%;
+    
+}
